@@ -1,53 +1,143 @@
-body {
-font-family: Helvetica;
-text-align: center;
-background-image: url('http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2003/09/a_mosaic_of_satellite_images_showing_a_cloud-free_europe/10066580-2-eng-GB/A_mosaic_of_satellite_images_showing_a_cloud-free_Europe.jpg');
-color: white;
-margin: 0;
-border: 0;
-padding: 0;
-text-align: justify;
+body
+{
+	padding: 0;
+	margin: 0 ;
+	background-image: url('ronds.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover ;
+	background-position:center; 
 }
 #container
 {
-width: 1200px;
-margin: 0 auto;
-background-color: rgba(0,0,0,0.3);
+	padding: 0;
+	margin: 0 ;
+#	background: #fff;
+	font-family: sans-serif;
 }
 
-h1 {text-align: center; font-weight: 800; font-size: 60px;}
+#header
+{
+	margin: 0;
+	padding: 20px;
+	background: #ccc;
+	height:50px;
+	background-image: url('haut.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
+}
 
-#navigation li a:hover { }
+#header h1 { margin: 0; }
+
+#navigation
+{
+	float: left;
+	width: 100%;
+	background: #333;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding: 5px 10px;
+	color: #fff;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #383; }
 
 #edito
 {
-margin: 20px;
+	height: 400px;
+	float: left;
+	padding: 0%;
+	margin: 1%;
+	width: 64%;
+	background-color: #f4fcff;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
 }
 
-h2
+#edito h2
 {
-background-color: #446CB3;
-color: #E4F1FE;
-padding-left: 10px;
+	color: #000;
+	font-size: 160%;
+	margin: 0 0 .5em;
 }
 
 div.element
 {
-float: left;
-margin: 20px;
+	float: left;
+	width: 31%;
+	min-width: 400px;
+	height: 400px;
+	overflow-y: scroll;
+	margin: 1%;
+	padding: 0%;
+	background-color: #f4fcff;
+	border: 1px solid #999999;
+	-webkit-border-radius: 25px 0px 25px 0px;
+	border-radius: 25px 0px;
+	-webkit-box-shadow: 5px 3px 3px #0a182e;
+	box-shadow: 5px 3px 3px #0a182e;
+	opacity: 0.8;
 }
 
 div.element img
 {
-float: right;
-width: 200px;
-margin-left: 20px;
+	background-color : #fff;
+	float: right;
+	width: 40%;
+	margin: 5%;
+	border: 1px solid #000;
+	padding: 5px 5px 20px 5px;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-moz-transform:rotate(7deg); /* Firefox */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */
+	-o-transform:rotate(7deg); /* Opera */
 }
 
-h3 {
-	font-size: 13px;}
-a {
-	color: white;
-	text-decoration: none;
-	
+p
+{
+	margin: 20px;
+	text-align: justify;
+}
+
+h2,h3
+{
+	text-align: center;
+}
+
+#footer
+{
+	clear: both;
+	background: #ccc;
+	text-align: left;
+	font-weight: bold;
+	padding: 20px;
+	height: 1%;
+	background-image: url('bas.jpg');
+	background-repeat: no-repeat;
+	background-size: cover ;
+	background-position:center; 
 }
