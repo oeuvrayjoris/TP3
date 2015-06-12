@@ -21,7 +21,7 @@ h1 {text-align: center; font-weight: 800; font-size: 60px;}
 
 #edito
 {
-margin: 20px;
+margin: 15px;
 }
 
 h2
@@ -47,7 +47,5 @@ margin-left: 20px;
 h3 {
 	font-size: 13px;}
 a {
-	color: white;
-	text-decoration: none;
-	
+	color: white;	
 }
